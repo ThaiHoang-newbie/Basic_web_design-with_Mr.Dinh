@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* navbar */
+
+.navbar-nav{
+    margin-right: 0 !important;
+    padding-right: 100px;
+}
+
+.navbar{
+    background-color: #0a193d;
+    color: white !important;
+}
+ 
+.nav-item a{
+    color: white !important;
+}
+  
+.nav-item{
+    padding-left: 2px;
+}
+  
+.navbar-brand{
+    color: white !important;
+    padding-left: 100px;
+}
+  
+#navbar button{
+    color: white !important;
+}
+  
+/* banner */
+  
+#banner-container{
+    background-color: #0a193d;
+    color: white !important;
+    padding-top: 80px;
+    padding-bottom: 80px;
+      
+}
+  
+#banner-row img{
+    max-width: 70%;
+    height: auto;
+    display: block;
+    padding-left: 30px;
+}
+  
+#banner-row h3, p{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+  
+#banner-row a{
+    background-color: white !important;
+    color: black !important;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+      
+}
+#banner-col{
+    padding-left: 20px;
+}
+/* service */
+#service{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+  
+#service h1{
+    padding-bottom: 70px;
+}
+  
+/* about */
+  
+#about{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+  
+#about h1{
+    padding-bottom: 70px;
+}
+  
+#about-col ul{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+  
+#about-col ul li{
+    padding-top: 15px;
+      
+}
+  
+/* product */
+  
+#product{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+  
+#product h1{
+    padding-bottom: 70px;
+}
+  
+#product-col2 ul{
+    padding-top: 90px;
+}
+  
+#product-col2 ul li{
+    padding-top: 15px;
+}
+  
+/* social */
+  
+#social{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+  
+#social h1{
+    padding-bottom: 70px;
+}
+  
+.social-col a:hover img{
+   transform: translateY(-10px);
+}
+  
+#social-row{
+    flex-direction: row;
+}
+  
+/* footer */
+  
+.mb-3{
+  padding-top: 10px;
+}
+  
+  
+/* media */
+@media only screen and (max-width: 987px){
+    .navbar-brand{
+        padding-left: 0px;
+    }
+}
+  
+@media only screen and (max-width: 768px){
+    #banner-row img{
+        padding-top: 20px;
+    }
+  
+   .social-col{
+       width: 33%;
+   }
+  
+}

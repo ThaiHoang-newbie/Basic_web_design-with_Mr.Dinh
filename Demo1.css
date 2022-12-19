@@ -1,0 +1,33 @@
+table{border: 5px double red;}
+th{
+    background-color: yellow;
+    color: blue;
+    font-size: 15px;
+    border: black;
+    text-align: center;
+}
+td{
+    background-color: purple;
+    color: white;
+    font-size:15px;
+    border: black;
+    text-align: center;
+}
+h1{
+    color: red;
+    font-family: Arial;
+    font-size: 25px; 
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+a.WhiteWine{
+    color: purple;
+}
+a.RedWine{
+    color: red;
+}
+div{
+    display: inline;
+}

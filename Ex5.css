@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+.header{
+    display: grid;
+    grid-template-rows: 100px auto;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    vertical-align: middle;
+}
+.right .menu li{
+    display: inline;
+    list-style-type: none;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-inline: 15px;
+    text-align: right;
+}
+
+
+
+.body{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.full_info{
+
+}
+.body .full_info img{
+    height: 350px;
+    width: fit-content;
+}
